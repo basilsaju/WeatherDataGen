@@ -4,6 +4,7 @@ This is a project to generate sample data for testing weather models.
 The output is of the following format:
 city|latitude,longitude,altitude|timestamp|condition|temperature|pressure|humidity
 
+Weather data points for 10 cities are generated for 4 seasons (summer, spring, winter, autumn). 
 input parameters:
   1. location file location: city,latitude,longitude,altitude.
   2. min-max file location: city, season, minTemp, maxTemp, minPressure, maxPressure, minHumidity, maxHumidity.
