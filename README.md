@@ -9,8 +9,8 @@ input parameters:
   2. min-max file location: city, season, minTemp, maxTemp, minPressure, maxPressure, minHumidity, maxHumidity.
   3. output file location.
 
-###Logic Used:
+### Logic Used:
 A random date is generated for each season. From the input file, other parameters like temperature, pressure, humidity are randomly generated within the range specified in the input file. A weather condition is then calculated as per the values of pressure, humidity values and time of the day.
 
-###Build:
+### Build:
 mvn clean install
