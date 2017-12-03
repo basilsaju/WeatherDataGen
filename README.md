@@ -10,7 +10,7 @@ input parameters:
   3. output file location.
 
 ###Logic Used:
-A random date is generated from which season is chosen. From the input file, other parameters like temperature, pressure, humidity are randomly generated within the range specified by the input file. Condition is calculated from the rule specified that takes temperature, pressure, humidity and season into account.
+A random date is generated for each season. From the input file, other parameters like temperature, pressure, humidity are randomly generated within the range specified in the input file. A weather condition is then calculated as per the values of pressure, humidity values and time of the day.
 
 ###Build:
 mvn clean install
